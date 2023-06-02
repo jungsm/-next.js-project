@@ -12,11 +12,18 @@ body{
 .navbar{
   height: 4rem;
   background-color: black;
-  color: white;
   padding-right: 3rem;
-  text-align: end;
   line-height: 4rem;
 }
+.navbar ul{
+  display:flex;
+  list-style: none;
+  justify-content: space-around;
+}
+.navbar ul li{
+  color: white;
+}
+
 .btn{
   display: flex
 }

@@ -13,9 +13,18 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
+       
+      <div className='navbar'>
+     
+        <ul>
+          <Link href="/list">
+          <li>홈</li>
+          </Link>
         <Link href="/login">
-      <div className='navbar'>Login</div>
-      </Link>
+        <li>Login</li>
+        </Link>
+        </ul>
+        </div>
       {children}</body>
     </html>
   )
