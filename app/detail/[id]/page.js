@@ -1,6 +1,6 @@
 import { connectDB } from "@/util/database"
 import { ObjectId } from "mongodb"
-
+import Link from "next/link"
 export default async function Detail(props) {
 
     const db = (await connectDB).db("forum")
@@ -14,6 +14,9 @@ export default async function Detail(props) {
               <div className="detail-item">
                 <hr/>
                    <h1>{result.content}</h1>
+                   <Link href={"/edit/" + result._id}>
+                   <span>수정</span>
+                   </Link>
               </div>
             </div>
     )

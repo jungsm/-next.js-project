@@ -7,13 +7,12 @@ body{
   
 }
 .navbar{
-  margin: auto 30rem;
-  height: 3rem;
+  height: 4rem;
   background-color: black;
   color: white;
   padding-right: 3rem;
   text-align: end;
-  line-height: 3rem;
+  line-height: 4rem;
 }
 /* 리스트 페이지 CSS*/
 .list-bg{
