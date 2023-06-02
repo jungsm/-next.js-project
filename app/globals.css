@@ -23,22 +23,23 @@ body{
 .navbar ul li{
   color: white;
 }
-
 .btn{
   display: flex
 }
 /* 리스트 페이지 CSS*/
 .list-bg{
- margin: auto 30rem
+ margin: auto 30rem;
 }
 .line{
-  border: 1px solid;
+  width: 100%;
+  border: 2px solid;
   background: black;
 }
 .board-item{
   display: flex;
   justify-content: space-between;
   margin: 0 2rem;
+  
 }
 .list-item{
   display: flex;
@@ -71,7 +72,11 @@ body{
 
 /*detail 페이지 CSS*/
 .detail-item{
-  margin-right: 1.4rem;
+  margin-top: 3rem;
+  background-color: white;
+  padding: 1rem 1rem;
+  height: 40rem;
+  border-radius: 0.5rem;
 }
 
 /*write 페이지 CSS */

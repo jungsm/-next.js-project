@@ -11,13 +11,13 @@ export default async function Detail(props) {
         <div className="list-bg">
               <h1>{result.title}</h1>
               <h4>{result.time}</h4>
+            <div className="line"></div>
               <div className="detail-item">
-                <hr/>
                    <h1>{result.content}</h1>
-                   <Link href={"/edit/" + result._id}>
+              </div>
+              <Link href={"/edit/" + result._id}>
                    <button className="list-btn">수정</button>
                    </Link>
-              </div>
             </div>
     )
   }

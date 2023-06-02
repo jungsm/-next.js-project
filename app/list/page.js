@@ -8,6 +8,7 @@ export default async function list() {
 
     return (
       <div className="list-bg">
+        <div className="pa-10">
         <h1>자유 게시판</h1>
       <div className="line"></div>
       <div className="board-item">
@@ -18,6 +19,7 @@ export default async function list() {
       <Link href={"/write"}>
       <button className="list-btn">글쓰기</button>
       </Link>
+      </div>
     </div>
     )
   }
