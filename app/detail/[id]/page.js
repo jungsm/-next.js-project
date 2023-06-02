@@ -15,7 +15,7 @@ export default async function Detail(props) {
                 <hr/>
                    <h1>{result.content}</h1>
                    <Link href={"/edit/" + result._id}>
-                   <span>수정</span>
+                   <button className="list-btn">수정</button>
                    </Link>
               </div>
             </div>

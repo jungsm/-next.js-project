@@ -1,9 +1,12 @@
+/* 공동 */
+
 *{
   text-decoration: none;
 }
 body{
   margin: 0;
   padding: 0;
+  background: rgb(249, 250, 255);
   
 }
 .navbar{
@@ -13,6 +16,9 @@ body{
   padding-right: 3rem;
   text-align: end;
   line-height: 4rem;
+}
+.btn{
+  display: flex
 }
 /* 리스트 페이지 CSS*/
 .list-bg{
@@ -78,6 +84,7 @@ body{
   width: 100%;
   height: 4rem;
   border: none;
+  padding-left: 2rem;
   box-sizing: border-box;
   line-height: 1rem;
   vertical-align: top;
@@ -90,8 +97,7 @@ body{
   font-weight: bold;
   background-color: #222;
   cursor: pointer;
-  margin-top: 1rem;
-  margin: 3rem 4rem;
+  margin: 2rem auto;
 }
 
 

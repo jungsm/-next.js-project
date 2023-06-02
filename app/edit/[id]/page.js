@@ -13,7 +13,9 @@ export default async function edit(props){
                 <input className="write-title" name="title" defaultValue={result.title}/>
                 <input className="write-content" name="content"  defaultValue={result.content}/>
                 <input style={{display : 'none'}} className="write-content" name="_id" defaultValue={result._id} />
+                <div className="btn">
                 <button className="write-btn" type="submit">수정</button>
+                </div>
             </form>
             </div>
     )
