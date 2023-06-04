@@ -1,6 +1,7 @@
 import { connectDB } from "@/util/database"
 import { ObjectId } from "mongodb"
 import Link from "next/link"
+import Delete from "./Delete"
 export default async function Detail(props) {
 
     const db = (await connectDB).db("forum")
@@ -18,6 +19,7 @@ export default async function Detail(props) {
               <Link href={"/edit/" + result._id}>
                    <button className="list-btn">수정</button>
                    </Link>
+                   <Delete result={result} />
             </div>
     )
   }
